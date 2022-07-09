@@ -1,7 +1,6 @@
 #pragma once
 #include "IDrawable.hpp"
 #include "IAnimatable.hpp"
-#include "IHasPosition.hpp"
 
 
 namespace AnmAPI {
