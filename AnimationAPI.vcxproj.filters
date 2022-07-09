@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\classes">
+      <UniqueIdentifier>{9ffe2310-0143-4554-9de4-9c658992c050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\classes\interfaces">
+      <UniqueIdentifier>{00702760-fb27-4d6b-a99f-c5c0ae4284a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{a780cb25-9e98-4b7a-add8-ccd63cbdb8ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Header Files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.hpp">
+      <Filter>Header Files\classes\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimatable.hpp">
+      <Filter>Header Files\classes\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IHasPosition.hpp">
+      <Filter>Header Files\classes\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IScalable.hpp">
+      <Filter>Header Files\classes\interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation_constructors.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation_destructor.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation_animate.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation_setState.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
